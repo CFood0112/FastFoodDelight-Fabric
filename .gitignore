@@ -1,0 +1,31 @@
+# Build outputs
+build/
+.gradle/
+.gradle-home/
+run/
+logs/
+.logs/
+*.log
+
+# Local build-support state
+.build/
+.bootstrap/
+.tmp/
+.probe-*/
+
+# Local dependencies (binary jars not committed)
+libs/*.jar
+
+# Internal packaged deliverable (jar/zip are artifacts, not source)
+dist/
+
+# Local JDK (workspace-level, outside this repo normally)
+.jdks/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+Thumbs.db

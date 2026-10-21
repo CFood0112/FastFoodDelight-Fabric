@@ -1,0 +1,10 @@
+accessWidener v1 named
+
+# 1.17.1 VillagerProfession has a private constructor; opening it lets the
+# FastFood waiter profession be registered without Mixin.
+accessible method net/minecraft/world/entity/npc/VillagerProfession <init> (Ljava/lang/String;Lnet/minecraft/world/entity/ai/village/poi/PoiType;Lcom/google/common/collect/ImmutableSet;Lcom/google/common/collect/ImmutableSet;Lnet/minecraft/sounds/SoundEvent;)V
+
+# Runtime village-pool injection (M4b / ADR-012).
+accessible field net/minecraft/world/level/levelgen/feature/structures/StructureTemplatePool templates Ljava/util/List;
+accessible field net/minecraft/world/level/levelgen/feature/structures/StructureTemplatePool rawTemplates Ljava/util/List;
+mutable field net/minecraft/world/level/levelgen/feature/structures/StructureTemplatePool rawTemplates Ljava/util/List;

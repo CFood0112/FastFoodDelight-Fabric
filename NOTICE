@@ -1,0 +1,108 @@
+FastFood Delight: Fabric Port — NOTICE
+
+This repository contains an unofficial Fabric 1.17.1 port of FastFood Delight.
+It is not affiliated with, endorsed by, or supported by the original author or
+by the Farmer's Delight team.
+
+1. Originating work
+
+   Name: FastFood Delight
+   Author: Akaneo (CurseForge: akaneo2; GitHub: akaneoMT)
+   Original platform: Minecraft Forge 1.19
+   Original license: MIT License — declared by the author in the mod's
+   mods.toml (license="MIT License"), and verified as MIT on the CurseForge
+   project page by the project owner on 2026-10-21 (screenshot archived in the
+   project's release evidence).
+   Original project pages:
+     https://www.curseforge.com/minecraft/mc-mods/fastfood-delight
+     https://github.com/akaneoMT/FastFoodDelight
+
+   Copyright in the original code, data, textures, models, structure files,
+   language files, and logo belongs to Akaneo. The original source is based on
+   the 1.19-1.2.1 version. Later upstream releases (1.2.3 / 1.2.4) are not part
+   of this port.
+
+2. Note on the upstream LICENSE.txt
+
+   The upstream GitHub repository contains a LICENSE.txt that consists of the
+   stock Minecraft Forge MDK license template: LGPL-2.1 text for Minecraft
+   Forge / Forge Mod Loader, plus notices about MCP data and other third-party
+   components. That file is part of the Forge MDK scaffolding copied into the
+   repository (the repository also contains the MDK zip, MDK README.txt,
+   CREDITS.txt, Gradle wrapper, and Forge build scripts). It is not the
+   original author's license statement for the FastFood Delight mod code.
+
+   The mod's own license is the MIT License declared in its mods.toml and
+   verified as MIT on its CurseForge project page (2026-10-21). This port
+   relies on that declaration. No Forge MDK, Forge, FML, MCP, Mojang, or
+   Minecraft code or data is copied or redistributed by this project. If you
+   believe an
+   attribution or licensing statement here is incomplete, please contact the
+   maintainers once a public issue tracker is available so it can be corrected.
+
+3. This port
+
+   Name: FastFood Delight: Fabric Port
+   Editions: Faithful Edition 1.2.1+mc1.17.1;
+             Enhanced Edition 1.3.0+mc1.17.1
+   Copyright: Copyright (c) 2026 CFood0112 (Fabric port and modifications).
+   License: MIT License. See the LICENSE file.
+
+   Modifications: Forge 1.19 to Fabric 1.17.1 port; registry namespace change
+   to fastfooddelight_fabric; data and resource conversion; Fabric event and
+   registration code; tag and recipe migration; a custom smelting serializer to
+   preserve the 8-cheese output; waiter profession texture and trade-title
+   fixes; stack-size and per-world village injection fixes; Simplified Chinese
+   language file; and the Enhanced Edition changes listed in CHANGELOG.md.
+
+4. Third-party components (not bundled)
+
+   None of the following are included in this project's JAR or release
+   archives. They are separate dependencies that users install themselves.
+
+   Farmer's Delight — author vectorwing — MIT License
+   (Copyright (c) 2020 vectorwing) — upstream gameplay dependency of the
+   original mod.
+
+   Farmer's Delight [Fabric] 0.1.3 — authors Zifiv, vectorwing, StevenPlayzz —
+   MIT License (Copyright (c) 2020 vectorwing, Zifiv) — required Fabric runtime
+   dependency for Minecraft 1.17.1; based on Farmer's Delight 0.4.3; archived
+   community port; Modrinth project farmers-delight-fabric.
+   https://modrinth.com/mod/farmers-delight-fabric/version/cRnlUfGm
+   Expected SHA-1: acd64cc454f696843c5c533fdfb690d1cc7e5528
+
+   Fabric Loader — FabricMC contributors — Apache License 2.0 — required
+   runtime dependency.
+
+   Fabric API — FabricMC contributors — Apache License 2.0 — required runtime
+   dependency.
+
+   Minecraft — Mojang / Microsoft — Minecraft EULA — game runtime.
+
+5. What is not included
+
+   This project does not include or redistribute:
+   - the Farmer's Delight or Farmer's Delight [Fabric] JARs or assets;
+   - Minecraft, Mojang mappings, Forge, FML, or MCP code, data, or binaries;
+   - the upstream Forge MDK files (LICENSE.txt, CREDITS.txt, MDK README.txt,
+     changelog.txt, Gradle wrapper, Forge build scripts,
+     forge-1.19-41.1.0-mdk.zip);
+   - the original project's CurseForge avatar or cover art;
+   - any third-party asset that is not part of the original FastFood Delight
+     mod.
+
+6. Asset credits
+
+   The textures, models, blockstates, structure files, and language files in
+   this project are derived from the original FastFood Delight mod, used under
+   its MIT license. The in-game mod icon is original artwork prepared for this
+   project; the original project logo is retained only as a historical source
+   asset in the repository history. The Simplified Chinese language file was
+   added by this project's maintainer. The CurseForge project avatar and
+   screenshots are prepared separately from the original project's cover art.
+
+7. Trademarks
+
+   Minecraft is a trademark of Mojang Synergies AB. Other names, logos, and
+   trademarks are the property of their respective owners. Their use here is
+   for identification and attribution only.

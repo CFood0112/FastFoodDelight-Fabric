@@ -1,0 +1,54 @@
+plugins {
+    id 'fabric-loom' version '0.10.60'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+repositories {
+    mavenCentral()
+}
+
+loom {
+    accessWidenerPath = file("src/main/resources/fastfooddelight_fabric.accesswidener")
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings loom.officialMojangMappings()
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+    // B2b: local Farmer's Delight [Fabric] port (binary, not committed)
+    modImplementation files("libs/farmers-delight-fabric-1.17.1-0.1.3.jar")
+}
+
+processResources {
+    inputs.property "version", project.version
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
+    // Ship the project license and attribution notice inside the JAR.
+    from("LICENSE") {
+        rename { "META-INF/LICENSE" }
+    }
+    from("NOTICE") {
+        rename { "META-INF/NOTICE" }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 16
+}
+
+// Produce byte-reproducible release archives: stable entry order and timestamps.
+tasks.withType(org.gradle.api.tasks.bundling.AbstractArchiveTask).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_16
+    targetCompatibility = JavaVersion.VERSION_16
+}
