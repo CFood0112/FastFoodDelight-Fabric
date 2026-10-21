@@ -16,8 +16,6 @@
   <a href="https://modrinth.com/mod/farmers-delight-fabric"><img src="https://img.shields.io/badge/Farmer%27s%20Delight-0.1.3-6B8E23?style=flat-square" alt="Farmer's Delight [Fabric] 0.1.3"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="MIT License"></a>
   <a href="https://github.com/CFood0112/FastFoodDelight-Fabric/releases"><img src="https://img.shields.io/github/v/release/CFood0112/FastFoodDelight-Fabric?include_prereleases&style=flat-square&label=release" alt="Latest release"></a>
-  <a href="https://github.com/CFood0112/FastFoodDelight-Fabric/stargazers"><img src="https://img.shields.io/github/stars/CFood0112/FastFoodDelight-Fabric?style=flat-square&logo=github&label=stars" alt="GitHub stars"></a>
-  <a href="https://github.com/CFood0112/FastFoodDelight-Fabric/issues"><img src="https://img.shields.io/github/issues/CFood0112/FastFoodDelight-Fabric?style=flat-square" alt="Issues"></a>
   <img src="https://img.shields.io/badge/status-Beta-orange?style=flat-square" alt="Beta">
 </p>
 
