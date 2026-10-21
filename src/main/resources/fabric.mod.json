@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "fastfooddelight_fabric",
+  "version": "${version}",
+  "name": "FastFood Delight (Fabric)",
+  "description": "A lightweight fast food expansion for Minecraft, ported to Fabric 1.17.1.",
+  "authors": [
+    "Akaneo (original Forge mod)",
+    "CFood0112 (Fabric port)"
+  ],
+  "license": "MIT License",
+  "icon": "icon.png",
+  "environment": "*",
+  "accessWidener": "fastfooddelight_fabric.accesswidener",
+  "entrypoints": {
+    "main": [
+      "net.akaneo.fastfooddelight.FastFoodDelightFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": ">=0.40.1+1.17",
+    "minecraft": "1.17.1",
+    "farmersdelight": ">=0.1.3"
+  }
+}

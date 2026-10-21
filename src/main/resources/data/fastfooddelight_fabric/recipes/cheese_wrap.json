@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "fabric:bread"
+    },
+    {
+      "item": "fastfooddelight_fabric:cheese"
+    },
+    {
+      "tag": "fabric:salad_ingredients"
+    },
+    {
+      "tag": "fabric:crops/onion"
+    }
+  ],
+  "result": {
+    "item": "fastfooddelight_fabric:cheese_wrap"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight_fabric.checkout_machine": "Checkout Machine",
+
+  "item.fastfooddelight_fabric.fries_bowl": "Chips Bowl",
+  "item.fastfooddelight_fabric.cheese": "Cheese",
+
+  "item.fastfooddelight_fabric.french_fries": "Chips",
+  "item.fastfooddelight_fabric.carrot_fries": "Carrot Chips",
+  "item.fastfooddelight_fabric.fried_onions": "Fried Onions",
+
+  "item.fastfooddelight_fabric.cod_sandwich": "Cod Sandwich",
+  "item.fastfooddelight_fabric.salmon_sandwich": "Salmon Sandwich",
+  "item.fastfooddelight_fabric.pork_sandwich": "Pork Sandwich",
+  "item.fastfooddelight_fabric.cheeseburger": "Cheeseburger",
+  "item.fastfooddelight_fabric.chicken_cheese_sandwich": "Chicken Cheese Sandwich",
+  "item.fastfooddelight_fabric.croque_monsieur": "Croque Monsieur",
+  "item.fastfooddelight_fabric.rabbit_sandwich": "Rabbit Sandwich",
+  "item.fastfooddelight_fabric.cheese_wrap": "Cheese Wrap",
+  "item.fastfooddelight_fabric.chicken_wrap": "Chicken Wrap",
+  "item.fastfooddelight_fabric.chicken_nuggets": "Chicken Nuggets",
+
+
+  "item.fastfooddelight_fabric.cola_soda": "Cola Soda",
+  "item.fastfooddelight_fabric.orange_soda": "Orange Soda",
+  "item.fastfooddelight_fabric.lemon_soda": "Lemon Soda",
+  "item.fastfooddelight_fabric.creaming_soda": "Creaming Soda",
+  "item.fastfooddelight_fabric.iced_tea": "Iced Tea",
+
+  "item.fastfooddelight_fabric.ice_cream": "Ice Cream",
+  "item.fastfooddelight_fabric.chocolate_ice_cream": "Chocolate Ice Cream",
+  "item.fastfooddelight_fabric.sweet_berry_ice_cream": "Sweet Berry Ice Cream",
+  "item.fastfooddelight_fabric.fruit_ice_cream": "Fruit Ice Cream",
+  "item.fastfooddelight_fabric.apple_sauce": "Apple Sauce",
+
+  "itemGroup.fastfooddelight_fabric.main": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight_fabric.fast_food_waiter": "Fast Food Waiter",
+  "entity.minecraft.villager.fast_food_waiter": "Fast Food Waiter"
+}

@@ -1,0 +1,14 @@
+# Normalize text files to LF so release JAR contents are reproducible across checkouts.
+* text=auto eol=lf
+
+# Windows launchers keep CRLF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+gradlew text eol=lf
+
+# Binary assets.
+*.jar binary
+*.zip binary
+*.png binary
+*.nbt binary
+*.class binary

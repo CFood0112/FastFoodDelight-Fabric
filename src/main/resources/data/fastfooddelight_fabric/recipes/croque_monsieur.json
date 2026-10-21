@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "fabric:bread"
+    },
+    {
+      "tag": "fabric:cooked_bacon"
+    },
+    {
+      "item": "fastfooddelight_fabric:cheese"
+    }
+  ],
+  "result": {
+    "item": "fastfooddelight_fabric:croque_monsieur"
+  }
+}

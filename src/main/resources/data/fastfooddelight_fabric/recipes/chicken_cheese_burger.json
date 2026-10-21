@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "fabric:bread"
+    },
+    {
+      "tag": "fabric:cooked_chicken"
+    },
+    {
+      "tag": "fabric:salad_ingredients"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "fastfooddelight_fabric:cheese"
+    }
+  ],
+  "result": {
+    "item": "fastfooddelight_fabric:chicken_cheese_sandwich"
+  }
+}
