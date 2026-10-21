@@ -29,3 +29,8 @@ dist/
 
 # OS
 Thumbs.db
+
+# Local-only dev launchers and build helper (not published)
+/run-client.cmd
+/run-server.cmd
+/scripts/build.ps1
