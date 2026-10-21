@@ -1,6 +1,27 @@
-# FastFood Delight: Fabric Port
+<div align="center">
 
-**FastFood Delight 的非官方 Minecraft 1.17.1 Fabric 移植版（原作者：Akaneo）。**
+<img src="assets/icon-400.png" width="128" alt="FastFood Delight [Fabric] 图标">
+
+<h1>FastFood Delight [Fabric]</h1>
+
+<p><strong>FastFood Delight 的非官方 Minecraft 1.17.1 Fabric 移植版（原作者：Akaneo）</strong></p>
+
+<p>
+  <a href="README.md">English</a> · <a href="README.zh-CN.md">简体中文</a>
+</p>
+
+<p>
+  <a href="https://www.minecraft.net/"><img src="https://img.shields.io/badge/Minecraft-1.17.1-3C8527?style=flat-square&logo=minecraft&logoColor=white" alt="Minecraft 1.17.1"></a>
+  <a href="https://fabricmc.net/"><img src="https://img.shields.io/badge/Fabric-Loader%200.12.12-DBD0B4?style=flat-square" alt="Fabric Loader 0.12.12"></a>
+  <a href="https://modrinth.com/mod/farmers-delight-fabric"><img src="https://img.shields.io/badge/Farmer%27s%20Delight-0.1.3-6B8E23?style=flat-square" alt="Farmer's Delight [Fabric] 0.1.3"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="MIT License"></a>
+  <a href="https://github.com/CFood0112/FastFoodDelight-Fabric/releases"><img src="https://img.shields.io/github/v/release/CFood0112/FastFoodDelight-Fabric?include_prereleases&style=flat-square&label=release" alt="Latest release"></a>
+  <a href="https://github.com/CFood0112/FastFoodDelight-Fabric/stargazers"><img src="https://img.shields.io/github/stars/CFood0112/FastFoodDelight-Fabric?style=flat-square&logo=github&label=stars" alt="GitHub stars"></a>
+  <a href="https://github.com/CFood0112/FastFoodDelight-Fabric/issues"><img src="https://img.shields.io/github/issues/CFood0112/FastFoodDelight-Fabric?style=flat-square" alt="Issues"></a>
+  <img src="https://img.shields.io/badge/status-Beta-orange?style=flat-square" alt="Beta">
+</p>
+
+</div>
 
 本项目把原版 Forge 模组 FastFood Delight 的快餐菜单、服务员村民、收银机和村庄快餐店带到 Minecraft 1.17.1 的 Fabric 平台。这是一个独立的社区项目，**与原作者、Farmer's Delight 团队及 Mojang 均无隶属关系**，也未获得其背书或支持。
 

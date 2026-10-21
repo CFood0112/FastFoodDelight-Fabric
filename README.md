@@ -1,6 +1,27 @@
-# FastFood Delight: Fabric Port
+<div align="center">
 
-**An unofficial Minecraft 1.17.1 Fabric port of [FastFood Delight](https://www.curseforge.com/minecraft/mc-mods/fastfood-delight) by Akaneo.**
+<img src="assets/icon-400.png" width="128" alt="FastFood Delight [Fabric] icon">
+
+<h1>FastFood Delight [Fabric]</h1>
+
+<p><strong>An unofficial Minecraft 1.17.1 Fabric port of FastFood Delight by Akaneo.</strong></p>
+
+<p>
+  <a href="README.md">English</a> · <a href="README.zh-CN.md">简体中文</a>
+</p>
+
+<p>
+  <a href="https://www.minecraft.net/"><img src="https://img.shields.io/badge/Minecraft-1.17.1-3C8527?style=flat-square&logo=minecraft&logoColor=white" alt="Minecraft 1.17.1"></a>
+  <a href="https://fabricmc.net/"><img src="https://img.shields.io/badge/Fabric-Loader%200.12.12-DBD0B4?style=flat-square" alt="Fabric Loader 0.12.12"></a>
+  <a href="https://modrinth.com/mod/farmers-delight-fabric"><img src="https://img.shields.io/badge/Farmer%27s%20Delight-0.1.3-6B8E23?style=flat-square" alt="Farmer's Delight [Fabric] 0.1.3"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="MIT License"></a>
+  <a href="https://github.com/CFood0112/FastFoodDelight-Fabric/releases"><img src="https://img.shields.io/github/v/release/CFood0112/FastFoodDelight-Fabric?include_prereleases&style=flat-square&label=release" alt="Latest release"></a>
+  <a href="https://github.com/CFood0112/FastFoodDelight-Fabric/stargazers"><img src="https://img.shields.io/github/stars/CFood0112/FastFoodDelight-Fabric?style=flat-square&logo=github&label=stars" alt="GitHub stars"></a>
+  <a href="https://github.com/CFood0112/FastFoodDelight-Fabric/issues"><img src="https://img.shields.io/github/issues/CFood0112/FastFoodDelight-Fabric?style=flat-square" alt="Issues"></a>
+  <img src="https://img.shields.io/badge/status-Beta-orange?style=flat-square" alt="Beta">
+</p>
+
+</div>
 
 FastFood Delight: Fabric Port brings the original mod's fast-food menu, waiter villagers, checkout machines, and village fast-food houses to Minecraft 1.17.1 on the Fabric loader. It is an independent community project. It is **not** affiliated with, endorsed by, or supported by the original author, the Farmer's Delight team, or Mojang.
 
